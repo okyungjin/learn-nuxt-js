@@ -120,7 +120,7 @@ Nuxt로 개발했을 때의 장점은 다음과 같다.
 
 ### presets
 
-<img width="500" alt="스크린샷 2022-04-11 오후 5 09 38" src="https://user-images.githubusercontent.com/31913666/162693127-9e69f6f1-16a7-4d16-b878-33f4a0868249.png">
+<img width="800" alt="스크린샷 2022-04-11 오후 5 09 38" src="https://user-images.githubusercontent.com/31913666/162693127-9e69f6f1-16a7-4d16-b878-33f4a0868249.png">
 
 
 ## Nuxt 프로젝트 폴더 구조
