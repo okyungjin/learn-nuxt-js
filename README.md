@@ -15,6 +15,19 @@
   - [Nuxt의 장점과 특징](#nuxt의-장점과-특징)
     - [Nuxt의 장점](#nuxt의-장점)
     - [Nuxt의 특징](#nuxt의-특징)
+- [Nuxt 프로젝트 시작하기](#nuxt-프로젝트-시작하기)
+  - [Nuxt 프로젝트 생성](#nuxt-프로젝트-생성)
+    - [npm](#npm)
+    - [presets](#presets)
+  - [Nuxt 프로젝트 폴더 구조](#nuxt-프로젝트-폴더-구조)
+    - [.nuxt](#nuxt)
+    - [assets](#assets)
+    - [layout](#layout)
+    - [middleware](#middleware)
+    - [pages](#pages)
+    - [plugins](#plugins)
+    - [static](#static)
+    - [store](#store)
 
 ## Build Setup
 
@@ -99,3 +112,38 @@ Nuxt로 개발했을 때의 장점은 다음과 같다.
 - 비동기 데이터 요청 속성
 - ES6/ES6+ 변환
 - 웹펙을 비롯한 기타 설정
+
+# Nuxt 프로젝트 시작하기
+## Nuxt 프로젝트 생성
+### npm
+`npm init nuxt-app learn-nuxt-js`
+
+### presets
+
+<img width="500" alt="스크린샷 2022-04-11 오후 5 09 38" src="https://user-images.githubusercontent.com/31913666/162693127-9e69f6f1-16a7-4d16-b878-33f4a0868249.png">
+
+
+## Nuxt 프로젝트 폴더 구조
+### .nuxt
+`npm run dev` 실행 시 Nuxt의 내용들이 `.nuxt` 폴더에 담긴다.
+
+### assets
+정적 웹 리소스
+
+### layout
+페이지의 레이아웃을 담당하는 레이아웃 컴포넌트들이 담기는 폴더
+
+### middleware
+SSR을 진행할 때 서버에서 브라우저에 파일을 넘기기 전에 항상 실행시키는 함수를 middleware라고 한다.
+
+### pages
+파일 기반 라우팅이 일어나는 폴더
+
+### plugins
+Vue Plugins에 대한 폴더
+
+### static
+SEO에 필요한 파일을 담는 폴더
+
+### store
+Vue Store에 대한 폴더
